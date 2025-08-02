@@ -1,2 +1,3 @@
 # SOC-Estimation-of-a-Battery
 This repository contains a Simulink-based implementation of a battery State of Charge (SOC) estimation model using the Coulomb Counting method integrated with a Thevenin-equivalent circuit. The model includes a parameter estimation module (PARA_EST) that identifies key battery parameters such as internal resistance and capacitance in real time. These parameters are then fed into the Thevenin model to simulate battery behavior under varying load conditions. The SOC is calculated using a custom MATLAB function (SOC_columb) that updates SOC based on the direction and magnitude of battery current over time. 
+
